@@ -1,0 +1,34 @@
+.register-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.register-form {
+  max-height: 80vh; /* Prevent overflow */
+  overflow-y: auto; /* Add scroll if content overflows */
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */
+}
+
+.text-white {
+  color: white !important;
+}
+
+.gradient-button {
+  background-image: linear-gradient(to right, #4eb1e0, #193a74);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.gradient-button:hover {
+  opacity: 0.8;
+}
