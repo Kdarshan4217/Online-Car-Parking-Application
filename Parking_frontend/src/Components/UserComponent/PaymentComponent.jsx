@@ -3,15 +3,23 @@ import { useLocation, useNavigate , useParams } from "react-router-dom";
 import axios from "axios";
 
 const PaymentComponent = () => {
-    const location = useLocation();
-    const navigate = useNavigate();
-    const { salonId } = useParams();
-    const amount = location.state?.amount || 0; // 🔹 Now correctly fetching amount from Booking
+
+    const rate = localStorage.getItem("areaRate");
+    const fromDateTime = new Date(`${fromDate}T${fromTime}`);
+    const toDateTime = new Date(`${toDate}T${toTime}`);
+    const timeDiffInMs = toDateTime.getTime() - fromDateTime.getTime();
+    const timeDiffInHours = timeDiffInMs / 3600000;
+  
+    const amount = timeDiffInHours * rate;
+
+    
+    // const location = useLocation();
+    // const navigate = useNavigate();
+    // const { salonId } = useParams();
+   
     const [error, setError] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
-    const appointmentData = location.state?.appointmentData;
-    const selectedServices = location.state?.services ;
-
+   
 
     useEffect(() => {
         const loadRazorpayScript = () => {
@@ -42,24 +50,26 @@ const PaymentComponent = () => {
                 await loadRazorpayScript();
                 const options = {
                     key: "rzp_test_W1Q8BUqjEuknLa",
-                    amount: amount * 100,
+                    amount: amount,
                     currency: "INR",
-                    name: "SaloonIT",
-                    description: "Payment for Salon Services",
+                    name: "parking",
+                    description: "Payment for parking Services",
                     handler:  async function  (response) {
                        console.log(response.data);
                         alert(`Payment successful! Payment ID: ${response.razorpay_payment_id}`);
                         try {
-                            const resp = await axios.post("https://localhost:44371/api/Payments", {
-                                UserId : JSON.parse(localStorage.getItem("user")).userId,
-                                SalonId : salonId,
-                                Appointments : appointmentData.map((a) => ({...a ,paymentMethod: "Test" ,price: selectedServices.find((s)=>s.serviceId === a.serviceId)?.cost})),
-                                
-                              });
-    
-                            navigate(`/salons/${salonId}/booking/payment/payment-success`, {
-                                state: { paymentId: response.razorpay_payment_id },
-                            });
+                           
+    axios
+    .post("http://localhost:9090/user/bookparking", data, { headers })
+    .then((response) => {
+      console.log(response.data);
+      navigate("/parkingreceipt"); // Navigate to Confirm Payment on success
+    })
+    .catch((error) => {
+      console.error(error);
+      window.alert("Booking failed. Please try again.");
+      navigate("/userDashboard"); // Navigate to Previous on failure
+    });
                         } catch (error) {
                             alert("Something went wrong.")
                         }

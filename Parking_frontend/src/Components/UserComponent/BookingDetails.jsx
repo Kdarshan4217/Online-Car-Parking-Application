@@ -1,9 +1,10 @@
+import React from "react";
+import { Button } from "react-bootstrap";
+import { Link, useNavigate } from "react-router-dom";
+import backgroundImage from "../../images/pk2.jpeg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./bookingDetails.css";
-import backgroundImage from "../../images/pk2.jpeg";
-import { Button } from "react-bootstrap";
-import axios from "axios";
-import { Link } from "react-router-dom";
+
 function BookingDetails() {
   const areaName = localStorage.getItem("areaName");
   const areaId = localStorage.getItem("areaId");
@@ -17,46 +18,49 @@ function BookingDetails() {
   const fromTime = localStorage.getItem("parkingFromTime");
   const toDate = localStorage.getItem("parkingToDate");
   const toTime = localStorage.getItem("parkingToTime");
-  const rate = localStorage.getItem("areaRate");
+  const rate = parseFloat(localStorage.getItem("areaRate")).toFixed(2);
+
 
   const fromDateTime = new Date(`${fromDate}T${fromTime}`);
   const toDateTime = new Date(`${toDate}T${toTime}`);
   const timeDiffInMs = toDateTime.getTime() - fromDateTime.getTime();
   const timeDiffInHours = timeDiffInMs / 3600000;
 
-  const totalAmt = timeDiffInHours * rate;
-  const token = localStorage.getItem("token");
+  const totalAmt = Math.round(timeDiffInHours * rate * 100) / 100;
 
-  var onButtonClick = () => {
-    localStorage.setItem("totalAmt", totalAmt);
-    const fromDateTimeISO = fromDateTime.toISOString();
-    const toDateTimeISO = toDateTime.toISOString();
-  
-    const data = {
-      fromDate: fromDateTimeISO,
-      toDate: toDateTimeISO,
-      totalAmt,
-      areaId: Number(areaId),
-      zoneId: Number(zoneId),
-      slotId: Number(slotId),
-      userId: Number(userId),
-      carId: Number(carId),
+
+  const navigate = useNavigate();
+
+  // Function to handle the payment
+  const onButtonClick = () => {
+    // Razorpay options (use dummy data for testing)
+    const options = {
+      key: "rzp_test_LMZHnNT5VlTSU1", // Replace with your Razorpay key
+      amount: totalAmt * 100, // Amount in paise
+      currency: "INR",
+      name: "Parking Booking",
+      description: "Complete your parking payment",
+      image: "https://example.com/logo.png", // Optional: Your logo
+      handler: function (response) {
+        // Simulate successful payment and redirect
+        console.log("Payment successful", response);
+        navigate("/parkingreceipt");
+      },
+      prefill: {
+        name: "John Doe", // Replace with user name
+        email: "user@example.com", // Replace with user email
+        contact: "1234567890", // Replace with user contact
+      },
+      notes: {
+        address: "Some address", // Optional: Add any notes
+      },
     };
-  
-    const headers = { Authorization: `Bearer ${token}` };
-  
-    axios
-      .post("http://localhost:9090/user/bookparking", data, {
-        headers: headers,
-      })
-      .then((response) => {
-        console.log(response.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+
+    // Open the Razorpay payment window
+    const rzp = new window.Razorpay(options);
+    rzp.open();
   };
-  
+
   return (
     <div
       style={{
@@ -104,27 +108,22 @@ function BookingDetails() {
           </tbody>
         </table>
         <div className="text-center mt-3">
-          <Link to="/parkingreceipt">
-            <Button
-              onClick={onButtonClick}
-              className='btn btn-dark "me-2"'
-              style={{ height: 50, width: 150 }}
-              variant="primary"
-            >
-              Confirm Payment
-            </Button>
-          </Link>
-          {/* <button className="btn btn-primary" onClick={onButtonClick}>
-          Confirm Payment
-        </button> */}
+          <Button
+            onClick={onButtonClick}
+            className="btn btn-dark me-2"
+            style={{ height: 50, width: 150 }}
+            variant="primary"
+          >
+            Confirm Payment
+          </Button>
         </div>
         <div>
-                    <Link to={"/userDashboard"}>
-                      <Button variant="primary" className="me-2">
-                        Previous
-                      </Button>
-                    </Link>
-                  </div>
+          <Link to={"/userDashboard"}>
+            <Button variant="primary" className="me-2">
+              Previous
+            </Button>
+          </Link>
+        </div>
       </div>
     </div>
   );
