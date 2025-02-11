@@ -1,0 +1,104 @@
+/* Ensuring full-page background styling */
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  backdrop-filter: blur(5px);
+}
+
+/* Stylish Login Container */
+.login-container {
+  background: rgba(255, 255, 255, 0.2); /* Glass effect */
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Login Heading */
+.login-container h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input Fields */
+.form-control {
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  transition: 0.3s;
+}
+
+/* Input Focus Effect */
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Password Input Group */
+.password-group {
+  position: relative;
+}
+
+/* Password Toggle Icon */
+.password-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #666;
+  transition: 0.3s;
+}
+
+.password-icon:hover {
+  color: #007bff;
+}
+
+/* Login Button */
+.btn-primary {
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0056b3, #00408a);
+}
+
+/* Register Link */
+.text-center a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #007bff;
+  transition: 0.3s;
+}
+
+.text-center a:hover {
+  color: #0056b3;
+}
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 576px) {
+  .login-page {
+      background-size: contain;
+      padding: 20px;
+  }
+
+  .login-container {
+      width: 90%;
+  }
+}

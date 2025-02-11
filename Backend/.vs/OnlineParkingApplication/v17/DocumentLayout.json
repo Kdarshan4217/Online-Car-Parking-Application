@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\controllers\\userdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:controllers\\userdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\controllers\\parkingareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:controllers\\parkingareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\controllers\\parkingslotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:controllers\\parkingslotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\custommodel\\customparkingslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:custommodel\\customparkingslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\models\\parkingslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:models\\parkingslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\controllers\\cardetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:controllers\\cardetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\controllers\\parkingzonescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:controllers\\parkingzonescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\custommodel\\custommodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:custommodel\\custommodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\custommodel\\customparkingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:custommodel\\customparkingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\models\\parkingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:models\\parkingzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|d:\\dotnetfinalproject\\yohan\\onlineparkingapplication\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7FEA4-7A79-4DB0-8EE4-64D11F2CE57E}|OnlineParkingApplication.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-10T18:11:45.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FeedbacksController.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\FeedbacksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FeedbacksController.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\FeedbacksController.cs",
+              "RelativeToolTip": "Controllers\\FeedbacksController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:39:30.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CardetailsController.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\CardetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CardetailsController.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\CardetailsController.cs",
+              "RelativeToolTip": "Controllers\\CardetailsController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwF8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T06:22:50.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParkingareasController.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\ParkingareasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ParkingareasController.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\ParkingareasController.cs",
+              "RelativeToolTip": "Controllers\\ParkingareasController.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAUwM0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T05:55:37.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomModels.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\CustomModel\\CustomModels.cs",
+              "RelativeDocumentMoniker": "CustomModel\\CustomModels.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\CustomModel\\CustomModels.cs",
+              "RelativeToolTip": "CustomModel\\CustomModels.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T03:25:47.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Userdetail.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Models\\Userdetail.cs",
+              "RelativeDocumentMoniker": "Models\\Userdetail.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Models\\Userdetail.cs",
+              "RelativeToolTip": "Models\\Userdetail.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:50:35.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserdetailsController.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\UserdetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserdetailsController.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\UserdetailsController.cs",
+              "RelativeToolTip": "Controllers\\UserdetailsController.cs",
+              "ViewState": "AgIAAJACAAAAAAAAAAAAAMwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:35:43.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Parkingslot.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Models\\Parkingslot.cs",
+              "RelativeDocumentMoniker": "Models\\Parkingslot.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Models\\Parkingslot.cs",
+              "RelativeToolTip": "Models\\Parkingslot.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T07:28:00.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\MyDbContext.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "Models\\MyDbContext.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAuwKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T11:41:21.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ParkingslotsController.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\ParkingslotsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ParkingslotsController.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\ParkingslotsController.cs",
+              "RelativeToolTip": "Controllers\\ParkingslotsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T03:20:49.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomParkingSlot.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\CustomModel\\CustomParkingSlot.cs",
+              "RelativeDocumentMoniker": "CustomModel\\CustomParkingSlot.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\CustomModel\\CustomParkingSlot.cs",
+              "RelativeToolTip": "CustomModel\\CustomParkingSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T03:20:37.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ParkingzonesController.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\ParkingzonesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ParkingzonesController.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Controllers\\ParkingzonesController.cs",
+              "RelativeToolTip": "Controllers\\ParkingzonesController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwDQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T03:06:56.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomParkingZone.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\CustomModel\\CustomParkingZone.cs",
+              "RelativeDocumentMoniker": "CustomModel\\CustomParkingZone.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\CustomModel\\CustomParkingZone.cs",
+              "RelativeToolTip": "CustomModel\\CustomParkingZone.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T03:06:05.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Parkingzone.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Models\\Parkingzone.cs",
+              "RelativeDocumentMoniker": "Models\\Parkingzone.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Models\\Parkingzone.cs",
+              "RelativeToolTip": "Models\\Parkingzone.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T03:03:43.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAcwM8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T15:24:20.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "D:\\DotNetFinalProject\\Yohan\\OnlineParkingApplication\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T15:19:38.802Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
